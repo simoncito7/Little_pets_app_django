@@ -3,7 +3,7 @@ from datetime import datetime
 
 from django.core.management import BaseCommand
 
-from adoptions.models import Pet, Vaccine
+from wisdompets_app.models import Pet, Vaccine
 from pytz import UTC
 
 
@@ -32,7 +32,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         if Vaccine.objects.exists() or Pet.objects.exists():
-            print('Pet data already loaded...exiting.')
+            print('Pet data already loaded...existing.')
             print(ALREDY_LOADED_ERROR_MESSAGE)
             return
         print("Creating vaccine data")
