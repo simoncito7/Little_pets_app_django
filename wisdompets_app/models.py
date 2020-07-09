@@ -16,3 +16,7 @@ class Pet(models.Model):
 
 class Vaccine(models.Model):
     name = models.CharField(max_length = 50)
+
+    # override the __str__ method for display some data
+    def __str__(self):
+        return(self.name)
