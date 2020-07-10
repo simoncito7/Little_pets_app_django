@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import Http404
 
-from .models import Pet
+from wisdompets_app.models import Pet
 
 
 def home(request):
