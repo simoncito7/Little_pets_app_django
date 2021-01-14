@@ -2154,3 +2154,21 @@ iframe#wp-custom-header-video {
 .woocommerce .star-rating span,.woocommerce p.stars a::before {
   color: #FFD700;
 }
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+
+#texto {
+	color: red;
+	font-family: verdana;
+	font-size: 20px;
+	border-left: 6px solid rgb(21, 255, 0);
+	background-color: lightgrey;
+	border-width: 5px;  
+	padding-left: 10px; 
+}
+
